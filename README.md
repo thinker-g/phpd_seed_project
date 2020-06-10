@@ -8,28 +8,32 @@ This is the seed project of 2020 2PHPD course final exam. It is for you to stand
 
 ### I. Initial Configuration With Git
 
-*You **MUST STRICTLY FOLLOW** this part STEP by STEP, otherwise your project might be treated as invalid (0 points for the score)!*
+*You **MUST STRICTLY FOLLOW** this part STEP by STEP, otherwise your project might be considered as invalid (0 points for the score)!*
+
 
 1. Configure your local git setting before committing any new changes:
-  - user.name: "FamilyName GivenName"
   
-    user.email: "SupinfoID@supinfo.com"
-  - Run `git config ` command to configure these info, here's an example:
+    - user.name: "FamilyName GivenName"
+      user.email: "SupinfoID@supinfo.com"
+    - Run `git config ` command to configure these info, here's an example:
   
-    `git config user.name "GUO Jiyan"`
+      `git config user.name "GUO Jiyan"`
+
+      `git config user.email "57191@supinfo.com"`
   
-    `git config user.email "57191@supinfo.com"`
-3. To reveal you development history, there must be **at least 3 "uncontinuous commits"** in your commit history **(!!!IMPORTANT!!!)**
-  
-  - By "uncontinuous commits" means your commit histroy CANNOT be like this:
-  
-    `commit 1(2020/05/18): add file1`
-  
-    `commit 2(2020/05/18): remove file1`
-  
-    `commit 3(2020/05/18): add file1 back`
-  
-  - It's recommended to commit everytime (or everyday) you complete a function or work; (In passing, Git helps you to save checkpoints of your work, just like save-files in games, you can "go back" to anytime you want);
+2. To reveal you development history, there must be **at least 3 "uncontinuous commits"** in your commit history **(!!!IMPORTANT!!!)**
+
+    - Any works less than 3 "uncontinuous commits" will be considered as **INVALID**;
+
+    - By "uncontinuous commits" means your commit histroy CANNOT be like this:
+
+      `commit 1(2020/05/18): add file1`
+
+      `commit 2(2020/05/18): remove file1`
+
+      `commit 3(2020/05/18): add file1 back`
+
+    - It's recommended to commit everytime (or everyday) you complete a function or work; (In passing, Git helps you to save checkpoints of your work, just like save-files in games, you can "go back" to anytime you want);
 
 ### II. Directory Structure
 
@@ -53,4 +57,5 @@ This is the seed project of 2020 2PHPD course final exam. It is for you to stand
 For any further questions, you are welcome to ask me anytime.
 
 Bon courage! 
+
 
